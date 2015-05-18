@@ -1,8 +1,8 @@
 {
   "name": "bizzby-on-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
-    "bizzby-request-summary": "1.0.0",
+    "bizzby-request-summary": "1.0.1",
     "bizzby-response-summary": "1.0.0"
   },
   "repository": {

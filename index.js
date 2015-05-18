@@ -1,6 +1,6 @@
 
-var reqSummary = require('request-summary');
-var resSummary = require('response-summary');
+var reqSummary = require('bizzby-request-summary');
+var resSummary = require('bizzby-response-summary');
 
 /**
  * Expose `onResponse`.

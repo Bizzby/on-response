@@ -5,7 +5,7 @@
 ## Example
 
 ```js
-var onResponse = require('on-response');
+var onResponse = require('bizzby-on-response');
 
 app.use(function (req, res, next) {
   var start = Date.now();
@@ -17,10 +17,10 @@ app.use(function (req, res, next) {
 });
 ```
 
-The callback function returns a [request](https://github.com/segmentio/request-summary) and [response](https://github.com/segmentio/response-summary) summary for logging purposes:
+The callback function returns a [request](https://github.com/Bizzby/request-summary) and [response](https://github.com/Bizzby/response-summary) summary for logging purposes:
 
 ```js
-var onResponse = require('on-response');
+var onResponse = require('bizzby-on-response');
 
 app.use(function (req, res, next) {
   onResponse(req, res, function (err, summary) {
